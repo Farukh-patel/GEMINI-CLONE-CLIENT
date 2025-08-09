@@ -16,7 +16,7 @@ function Home() {
   const [showTitleInput, setShowTitleInput] = useState(false);
   const [isLoading, setisLoading] = useState(false);
 
-  const BACKEND_URL = "http://localhost:3000";
+  const BACKEND_URL = "https://gemini-backend-1y9p.onrender.com";
 
   useEffect(() => {
     const checkAuth = async () => {

@@ -18,7 +18,7 @@ function Signup() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://localhost:3000/users/auth/signup`,
+        `https://gemini-backend-1y9p.onrender.com/users/auth/signup`,
         formData,
         { withCredentials: true }
       );
